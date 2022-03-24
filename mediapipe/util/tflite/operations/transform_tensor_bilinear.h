@@ -21,9 +21,11 @@ namespace tflite {
 namespace ops {
 namespace custom {
 
-TfLiteRegistration* RegisterTransformTensorBilinearV1();
+//TfLiteRegistration* RegisterTransformTensorBilinearV1();
+//
+//TfLiteRegistration* RegisterTransformTensorBilinearV2();
 
-TfLiteRegistration* RegisterTransformTensorBilinearV2();
+TfLiteRegistration* RegisterTransformTensorBilinear();
 
 }  // namespace custom
 }  // namespace ops
